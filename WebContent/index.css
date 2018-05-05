@@ -1,0 +1,17 @@
+body{
+	margin: 0px;
+	font-family: "Helvetica Neue", Heltevica Arial, "Lucida grande", tamoha, verdana, arial, sans-serif;
+	font-size: 14px;
+}
+
+.divConsulta{
+	padding-top: 40px;
+}
+
+.div{
+	margin: 30px;
+}
+
+.fieldsetCadastro{
+	width: 500px;
+}

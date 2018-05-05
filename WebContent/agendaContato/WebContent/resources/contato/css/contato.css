@@ -1,0 +1,47 @@
+.divResultado{
+	margin-top: 30px;
+}
+
+.link{
+	padding-left: 10px;
+	cursor: pointer:
+}
+
+.fieldset{
+	widht: 500px;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+}
+
+.div-form{
+	margin-bottom: 5px;
+	width: 85%;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+}
+
+.div-form-buttom{
+	margin-top: 12px;
+	margin-left: 200px;
+}
+
+.div-form input {
+	margin-left: 110px;
+}
+
+.div-form label {
+	position: absolute;
+	margin-top: 4px;
+}
+
+.principalLogin{
+	margin: 15px;
+}
+
+
+
+
+
+

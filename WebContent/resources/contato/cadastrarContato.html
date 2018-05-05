@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="resources/contato/css/contato.css"></link>
+<script type="text/javascript" src="resources/contato/js/contato.js"></script>
+
+</head>
+<body>
+
+<fieldset class="conteudo-fieldset fieldsetCadastro">
+
+<form id="cadastrarContato" class="form">
+
+<div class="div-form">
+<label>Nome: </label>
+<input id="nome" name="txtnome" type="text"></input>
+</div>
+
+<div class="div-form">
+<label>Endereco: </label>
+<input id="endereco" name="txtendereco" type="text"></input>
+</div>
+
+<div class="div-form">
+<label>Telefone: </label>
+<input id="telefone" name="txttelefone" type="text"></input>
+</div>
+
+<div class="div-form-buttom">
+<input type="button" value="Enviar" onclick="SENAI.contato.cadastrar()"/>
+<input type="reset" value="Limpar"/>
+</div>
+
+
+
+</form>
+</fieldset>
+<div id="msg" style="display:none"></div>
+</body>
+</html>

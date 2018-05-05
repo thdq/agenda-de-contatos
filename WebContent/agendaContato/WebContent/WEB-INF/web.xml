@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>agendaContato</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+<servlet>
+<description></description>
+<servlet-name>CadastroContato</servlet-name>
+<servlet-class>br.com.agendaContato.servlets.CadastroContato</servlet-class>
+</servlet> 
+
+<servlet-mapping>
+<servlet-name>CadastroContato</servlet-name>
+<url-pattern>/CadastroContato</url-pattern>
+</servlet-mapping>
+  
+ <servlet>
+<description></description>
+<servlet-name>ConsultaContato</servlet-name>
+<servlet-class>br.com.agendaContato.servlets.ConsultaContato</servlet-class>
+</servlet> 
+
+<servlet-mapping>
+<servlet-name>ConsultaContato</servlet-name>
+<url-pattern>/ConsultaContato</url-pattern>
+</servlet-mapping>
+  
+<servlet>
+<description></description>
+<servlet-name>DeletaContato</servlet-name>
+<servlet-class>br.com.agendaContato.servlets.DeletaContato</servlet-class>
+</servlet> 
+
+<servlet-mapping>
+<servlet-name>DeletaContato</servlet-name>
+<url-pattern>/DeletaContato</url-pattern>
+</servlet-mapping>  
+ 
+ <servlet>
+<description></description>
+<servlet-name>ConsultaContatoPorId</servlet-name>
+<servlet-class>br.com.agendaContato.servlets.ConsultaContatoPorId</servlet-class>
+</servlet> 
+
+<servlet-mapping>
+<servlet-name>ConsultaContatoPorId</servlet-name>
+<url-pattern>/ConsultaContatoPorId</url-pattern>
+</servlet-mapping> 
+
+ 
+   
+<servlet>
+<description></description>
+<servlet-name>EditarContato</servlet-name>
+<servlet-class>br.com.agendaContato.servlets.EditarContato</servlet-class>
+</servlet> 
+
+<servlet-mapping>
+<servlet-name>EditarContato</servlet-name>
+<url-pattern>/EditarContato</url-pattern>
+</servlet-mapping> 
+
+</web-app>

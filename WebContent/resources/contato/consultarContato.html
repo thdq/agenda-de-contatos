@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="resources/contato/js/contato.js"></script>
+<script type="text/javascript" src="../js/alertify.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/alertify.min.css"/>
+</head>
+<body>
+
+	<fieldset class="conteudo-fieldset">
+		<legend>Consulta de Contato</legend>
+		<div>
+			Digite o Nome do contato: <input id="consultarContato" type="text"></input>
+			<input id="consultarContato" type="button" value="Buscar"
+				onClick="SENAI.contato.buscar()" />
+		</div>
+
+		<div id="resultadoContatos" class="divResultado"></div>
+	</fieldset>
+
+
+	<div id="editarContato" style="display: none">
+		<div class="div-form">
+			<label>Nome: </label> <input id="nomeEdit" name="nome" type="text"></input>
+		</div>
+
+		<div class="div-form">
+			<label>Endereco: </label> <input id="enderecoEdit" name="endereco"
+				type="text"></input>
+		</div>
+
+		<div class="div-form">
+			<label>Telefone </label> 
+			<input id="telEdit" name="telefone" type="text"></input>
+		</div>
+		<input name="idContato" id="idContatoEdit" type="hidden"></input>
+	</div>
+	<div id="msg" style="display:none"></div>
+</body>
+</html>
